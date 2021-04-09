@@ -9,7 +9,7 @@ async function handleRequest(request) {
   return new Response('Form your editor into the cloud', {
     headers: {
       'content-type': 'text/plain',
-      'Access-Control-Allow-Origin': 'https://hello-cloudflare.pages.dev'
+      'Access-Control-Allow-Origin': '*'
     },
   })
 }
